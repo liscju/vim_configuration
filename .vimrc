@@ -30,6 +30,7 @@ if has("gui_running")
 endif
 
 map <A-1> :NERDTreeToggle<cr>
+map <A-7> :TagbarToggle<cr>
 map <C-Tab> :bn<cr>
 map <S-R> :bufdo e!<cr>
 map <A-Left> :bp<cr>
@@ -43,3 +44,5 @@ map <F4> :YcmCompleter GoTo<cr>
 map <C-Up> <C-Y>
 map <C-Down> <C-E>
 map <A-F7> :grep! -nrw . -e <cword><cr>
+map <C-[> [{
+"map <C-]> ]}
