@@ -10,6 +10,7 @@ colorscheme solarized
 set number
 set hidden
 set updatetime=250
+set hlsearch
 
 runtime! ftplugin/man.vim
 
@@ -48,3 +49,5 @@ map <C-[> [{
 "map <C-]> ]}
 map <C-c> y
 map <C-v> p
+map <C-m> zz
+nnoremap <ESC> :noh<cr>
