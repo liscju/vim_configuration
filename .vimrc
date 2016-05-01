@@ -46,3 +46,5 @@ map <C-Down> <C-E>
 map <A-F7> :grep! -nrw . -e <cword><cr>
 map <C-[> [{
 "map <C-]> ]}
+map <C-c> y
+map <C-v> p
