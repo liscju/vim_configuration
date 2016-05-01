@@ -50,4 +50,5 @@ map <C-[> [{
 map <C-c> y
 map <C-v> p
 map <C-m> zz
+map <C-f> /\<<C-R>=expand('<cword>')<cr>\>
 nnoremap <ESC> :noh<cr>
