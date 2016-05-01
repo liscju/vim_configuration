@@ -11,6 +11,8 @@ set number
 set hidden
 set updatetime=250
 
+runtime! ftplugin/man.vim
+
 let g:solarized_termcolors=256
 
 let g:ycm_global_ycm_extra_conf = "/home/liscju/.ycm_extra_conf.py"
@@ -38,3 +40,6 @@ map <C-S-N> <C-p>
 map <C-A-Left> <C-o>
 map <C-A-Right> <C-i>
 map <F4> :YcmCompleter GoTo<cr>
+map <C-Up> <C-Y>
+map <C-Down> <C-E>
+map <A-F7> :grep! -nrw . -e <cword><cr>
