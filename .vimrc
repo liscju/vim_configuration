@@ -46,9 +46,10 @@ map <C-Up> <C-Y>
 map <C-Down> <C-E>
 map <A-F7> :grep! -nrw . -e <cword><cr>
 map <C-[> [{
-"map <C-]> ]}
+"map <C-]> ]} # it doesnt work - have no idea why
 map <C-c> y
 map <C-v> p
-map <C-m> zz
+"map <C-m> zz " C-m maps to enter, i have no idea how to resolve this so
+" for this moment i unmap it
 map <C-f> /\<<C-R>=expand('<cword>')<cr>\>
 nnoremap <ESC> :noh<cr>
